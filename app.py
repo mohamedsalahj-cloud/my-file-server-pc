@@ -4,7 +4,7 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 app.secret_key = "pi_tunisia_it_engineer_key"
-PASSWORD = "123456"
+PASSWORD = "491980"
 
 BASE_DIR = "/app/uploads"
 DIRS = {
