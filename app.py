@@ -4,7 +4,7 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 app.secret_key = "pi_tunisia_it_engineer_key"
-PASSWORD = "491980"
+PASSWORD = "0000"
 
 BASE_DIR = "/app/uploads"
 DIRS = {
@@ -190,4 +190,4 @@ def delete(category, filename):
     return redirect("/")
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+    app.run(host="0.0.0.0", port=8085)
